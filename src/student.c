@@ -11,7 +11,7 @@ int main()
     read_student();
 
     // Used to read student's marks from stdin;
-    read_marks(marks);
+    read_marks(marks, 4);
 
     average = calculate_average(marks, 4);
     discount = check_for_discount(average);
