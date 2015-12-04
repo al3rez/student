@@ -3,7 +3,8 @@
 #include <stdbool.h>
 #include <trimester.h>
 
-void read_student() {
+void read_student()
+{
     char first_name[255],
          last_name[255];
 
@@ -12,7 +13,9 @@ void read_student() {
     printf("Enter your last name: ");
     fgets(last_name, sizeof(last_name), stdin);
 }
-int check_for_discount(float average) {
+
+int check_for_discount(float average)
+{
     if (average >= 18)
         return 30;
 
@@ -25,7 +28,8 @@ int check_for_discount(float average) {
     return 0;
 }
 
-bool check_to_suspend(float average) {
+bool check_to_suspend(float average)
+{
     if (average < 12)
         return true;
     else
