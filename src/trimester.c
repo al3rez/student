@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <trimester.h>
-#define BUFFER_SIZE 8
 
 void read_student() {
     char first_name[255],
