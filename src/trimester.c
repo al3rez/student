@@ -43,8 +43,8 @@ void show_message(bool suspend, int discount, float average)
         printf("Your average marks is %0.1f and you get a discount of %d\n", average, discount);
 
     if (suspend != true && discount == 0)
-        printf("Your average marks is %0.1f but you don't unfortunately, get a discount\n", average, discount);
+        printf("Your average marks is %0.1f but you don't unfortunately, get a discount\n", average);
 
     if (suspend == true && discount == 0)
-        printf("Your average marks is %0.1f so you get suspended for one trimester\n", average, discount);
+        printf("Your average marks is %0.1f so you get suspended for one trimester\n", average);
 }
